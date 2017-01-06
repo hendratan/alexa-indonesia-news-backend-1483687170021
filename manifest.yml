@@ -1,0 +1,9 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: alexa-indonesia-news-backend
+  host: alexa-indonesia-news-backend
+  disk_quota: 1024M
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
